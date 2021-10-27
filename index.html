@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI |Dash</title>
+</head>
+<style>
+    body{
+        display:flex;
+        background: rgb(148, 147, 147);
+        }
+    #side_nav{
+        display: flex;
+        flex-direction: column;
+        height: 98vh;
+        width: auto;
+        background: rgb(132, 0, 255);
+        justify-content: center;
+        
+    }
+    #side_nav div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    #nav_opt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    #nav_opt *:hover{
+        width: 100%;
+        background: #000;
+        color: aliceblue;
+        display: flex;
+        border-radius: 5vw;
+        justify-content: center;
+    }
+    #nav_opt *{
+        width: 100%;
+        background: rgba(255, 60, 0, 0.253);
+        color: aliceblue;
+        border: solid;
+        border-top: aliceblue;
+        border-left: aliceblue;
+        border-right: aliceblue;
+        display: flex;
+        
+        justify-content: center;
+        margin: 0.5vh 1vw;
+    }
+    #nav_tools{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50vh;
+    }
+    #nav_tools div:hover{
+        width: 100%;
+        background: #000;
+        color: aliceblue;
+        display: flex;
+        border-radius: 5vw;
+        justify-content: center;
+    }
+    #nav_tools div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    #content_area{
+        width:100%;
+       
+        
+        height: 98vh;
+    
+        background: rgb(67, 78, 241);
+        
+        
+    }
+</style>
+<body>
+    <div id="side_nav">
+        <div>
+            <h1>org_name</h1>
+        </div>
+        
+        <section id="nav_opt">
+        <a>option_1</a>
+       
+        <a>option_2</a>
+        
+        <a>option_3</a>
+        
+        <a>option_4</a>
+        
+        <a>option_5</a>
+        </section>
+        <section id="nav_tools">
+            <div>
+            <img src="https://api-private.atlassian.com/users/b750437ad13884027d5b48cf249f742e/avatar" width="10%">
+            <a>user_name</a>
+        </div>
+        <br>
+            <div>
+                <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Settings-icon.png" width="10%">
+                <a>Settings</a>
+            </div>
+            
+        </section>
+    </div>
+    <div id="content_area">
+       
+    </div>
+
+</body>
+</html>
